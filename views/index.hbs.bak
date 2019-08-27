@@ -1,0 +1,88 @@
+
+<!-- about start -->
+<div class="about">
+  <div class="container">
+    <div class="donate-info">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="donate-box">
+            <!-- donate box start -->
+            <strong>37</strong>
+            <h2>Years Of Legal Experience and <b style="text-decoration:underline;">Specialized</b> in Family Law.</h2>
+            <a href="#specializations" class="btn btn-default btn-donate">View My Specializations</a> </div>
+          <!-- donate box close-->
+          <!-- <img src="/images/cbls.jpg" alt="California Board of Legal Specialization"/> -->
+        </div>
+        <div class="col-md-offset-1 col-md-7"><!-- about info-->
+          <h1>Someone You Can Trust</h1>
+          <p class="lead-font">Equipped with 37 years of legal experience and a total focus on family law, I run a truly specialized practice. </p>
+          <p>I began practicing family law in 1977, establishing my firm in Santa Ana in 1979. I have been concentrating on family law exclusively for decades, and I am certified as a family law specialist* by The State Bar of California Board of Legal Specialization. After thousands of cases, I have helped my clients address nearly every conceivable type of family law issue. </p>
+          <a href="#specializations" class="btn btn-default btn-yellow">Learn more</a> </div>
+        <!--about info close--> 
+      </div>
+    </div>
+  </div>
+</div>
+<!-- about close -->
+
+
+<!-- Service start -->
+<div class="service" id="specializations">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8">
+        <h1><a href="http://members.calbar.ca.gov/fal/Member/Detail/77468">Santa Ana Family Law Attorney</a></h1>
+        <p class="lead-font">If you are in need of a skilled attorney to help you navigate a divorce or resolve another important family law matter in Orange County, I can assist you. At the office of Paul T. Minerich Attorney at Law, I help my clients address some of life's most difficult problems. </p>
+      </div>
+      <div class="col-sm-4">
+        <a href="http://ls.calbar.ca.gov/LegalSpecialization/LegalSpecialtyAreas/FamilyLaw.aspx"><img width="100%" src="/images/cblslogo.jpg" alt="Certified California Board of Legal Specialization - Family Law"/></a>
+      </div>
+    </div>
+    <div class=" service-blk">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="blk">
+            <h2><a href="/business/">Business Division</a></h2>
+            <p>Family businesses take a variety of forms such as a sole proprietorship, corporation, LLC or partnership owned just by the parties or with other owners, or a professional business such as a medical, dental, law, psychological practice.</p>
+            <a href="/business/" class="btn btn-default btn-yellow">read more</a></div>
+        </div>
+        <div class="col-md-4">
+          <div class="blk">
+            <h2><a href="/family-residence/">Family Residence Division</a></h2>
+            <p>Dividing the family home in a divorce case can be relatively simple, or it raises many difficult issues.  Whenever I need an example of a property division issue that arises in a divorce case, the family home can usually be used as an example.</p>
+            <a href="/family-residence/" class="btn btn-default btn-yellow">read more</a></div>
+        </div>
+        <div class="col-md-4">
+          <div class="blk">
+            <h2><a href="/pensions/">Pension Division</a></h2>
+            <p>A pension plan may be the most valuable asset of the marital estate, even if the working spouse has not retired. Understanding the pension is important in both dividing the assets of the marriage and in determining child and spousal support.</p>
+            <a href="/pensions/" class="btn btn-default btn-yellow">read more</a></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="blk">
+            <h2><a href="/premarital/">Premarital Agreements</a></h2>
+            <p>In general, a premarital agreement is a written contract between parties that defines what is community property and separate property in a marriage and often defines what the rights and obligations are between parties regarding spousal support or alimony.  The premarital agreement applies in divorce and at death.<</p>
+            <a href="/premarital/" class="btn btn-default btn-yellow">read more</a></div>
+        </div>
+        <!--
+        <div class="col-md-4">
+          <div class="blk">
+            <h2><a href="#">Spousal Support</a></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla orci, laoreet id condimentum vitae.</p>
+            <a href="#" class="btn btn-default btn-yellow">read more</a></div>
+        </div>
+        <div class="col-md-4">
+          <div class="blk">
+            <h2><a href="#">Exploring alternative strategies</a></h2>
+            <p>Donec ac adipiscing lorem. Praesent sit amet ipsum quam suspendisse consectetur euismod lacus.</p>
+            <a href="#" class="btn btn-default btn-yellow">read more</a></div>
+        </div>
+        -->
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Service close --> 
+

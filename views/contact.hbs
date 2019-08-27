@@ -1,0 +1,91 @@
+<!-- GOOGLE MAP -->
+<section class="fixed-head-marger" style="height:400px; margin-top:10px;">
+	<div id="g-map-1" style="height:400px; width:100%;" class="map col-lg-12" data-gmaptitle="Paul T. Minerich Attorney at Law" data-gmapzoom="14" data-gmaplon="-117.8768672" data-gmaplat="33.7594856"></div>
+</section>
+
+<div class="main-container"><!--  Main-container start -->
+  <div class="container"><!-- contact-detail start -->
+	<div class="contact-detail">
+		<div class="row">
+		<div class="col-md-6">
+			<div class="row">
+			<div class="col-md-12">
+				<h1>Contact A Divorce Attorney Serving Westminster And Santa Ana </h1>
+				<h2>Chúng Tôi Nói Tiếng Việt</h2>
+				<p class="lead-font">Contact my office for a free initial consultation with a Santa Ana family law attorney. I can answer your questions about divorce and other essential family law matters. Vietnamese translation is available. Evening appointments are available.</p>
+			</div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="col-md-8 kindness">
+				<h2>Paul T. Minerich Attorney at Law </h2>
+				<ul class="list-style">
+					<li>940 West 17th Street, Suite D<br/>Santa Ana, CA 92706</li>
+					<li><i class="fa fa-phone-square"></i> 800-261-7759 (Toll Free)</li>
+					<li><i class="fa fa-phone-square"></i> 714-571-0678 </li>
+					<!-- http://www.wbwip.com/wbw/emailencoder.html -->
+					<li><i class="fa fa-envelope"></i> <a href="mailto:&#105;&#110;&#102;&#111;&#064;&#112;&#097;&#117;&#108;&#109;&#105;&#110;&#101;&#114;&#105;&#099;&#104;&#108;&#097;&#119;&#046;&#099;&#111;&#109;">&#105;&#110;&#102;&#111;&#064;&#112;&#097;&#117;&#108;&#109;&#105;&#110;&#101;&#114;&#105;&#099;&#104;&#108;&#097;&#119;&#046;&#099;&#111;&#109;</a></li>
+				</ul>
+				</div>
+				<div class="col-md-4 kindness">
+					<img src="/images/paul-minerich-attorney-at-law.png" />
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6" id="contact-form-main"> <!-- sidebar blk start -->
+			<div class=" sidebar-blk temp-form">
+			<h1>Contact Us Now</h1>
+			{{#if errors}}
+				{{#if errorYellow}}
+				<div class="alert alert-success">
+				{{else}}
+				<div class="alert alert-danger">
+	    		{{/if}}
+			{{#each errors}}
+				<strong>{{this}}</strong><br />
+    		{{/each}}
+    		</div>
+    		{{/if}}
+			<form name="contact-form" id="contact-form" action="/contact/submit" method="POST">
+				<!-- form start -->
+				<div class="form-group">
+				<label for="name">Name *</label>
+				<input type="text" class="form-control" id="name" placeholder="Name" name="name" required value="{{name}}">
+				</div>
+				<div class="form-group">
+				<label for="email">Email *</label>
+				<input type="email" class="form-control" id="email" placeholder="Email" name="email" required value="{{email}}">
+				</div>
+				<div class="form-group">
+				<label for="regarding">Contact Us Regarding *</label>
+				<select class="form-control option" name="regarding" id="regarding" required >
+					<option value="Property Division">Property Division</option>
+					<option value="Divorce">Divorce</option>
+					<option value="Other">Other</option>
+				</select>
+				</div>
+				<div class="form-group">
+				<label for="message">Message</label>
+				<textarea class="form-control" rows="5" name="message" id="message" placeholder="Message...">{{message}}</textarea>
+				<p style="font-size:12px;line-height:16px;margin:3px;">Contacting us does not create an attorney-client relationship. Please do not send any confidential information to us until such time as an attorney-client relationship has been established.</p>
+				</div>
+				<div class="form-group">
+				<label for="securityQuestion">Security Question - &#087;&#104;&#097;&#116;&#032;&#105;&#115;&#032;&#053;&#032;&#112;&#108;&#117;&#115;&#032;&#050;? *</label>
+				<input type="securityQuestion" class="form-control" id="securityQuestion" placeholder="What is 5 plus 2?" name="securityQuestion" required value="{{securityQuestion}}">
+				</div>
+				<input type="submit" class="btn btn-yellow btn-default" name="sendmessage" id="sendmessage" value="Submit" />				
+			</form>
+				<div id="thank"> </div>
+				
+				</div>
+			<!-- form close --> 
+			
+			</div>
+		</div>
+		<!-- sidebar blk close --> 
+		</div>
+	</div>
+  </div>
+  
+</div>
+<!--  Main-container close --> 
